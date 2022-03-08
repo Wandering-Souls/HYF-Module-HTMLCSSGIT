@@ -1,0 +1,27 @@
+To create a hidden file or folder:
+
+     $ touch .filename
+
+
+
+To display hidden file in CLI:
+
+     $ ls -a
+
+
+
+To create multiple nested directories:
+
+   $ mkdir -p dir1/dir2/dir3/dir4
+
+
+
+To create multiple directories in the current location
+
+   $  mkdir {dir1,dir2,dir3,dir4}  no space inside {}
+
+
+
+To a ppend a message to a file, without a newline character
+
+  $  echo -n "some text here" >> file.txt  
